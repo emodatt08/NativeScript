@@ -46,6 +46,11 @@ export class EditableTextBase extends TextBase {
     hint: string;
 
     /**
+     * Limits input to a certain number of characters.
+     */
+    maxLength: number;
+
+    /**
      * Hides the soft input method, ususally a soft keyboard.
      */
     dismissSoftInput(): void;
